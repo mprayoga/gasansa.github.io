@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* border: 1px solid black; */
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #f6f6f6;
+}
+
+.awal{
+  background: url('../images/background/images (2).jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+header{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  background-color:  #97a432;
+  position: fixed;
+}
+.logo img{
+  padding: 7px 25px;
+  width: 15%;
+  height: 50px;
+
+}
+.logo{
+  width: 70%;
+}
+/* style menu tov nav */
+.topnav {
+  border-bottom-right-radius: 60px; 
+  width: 30%;
+  padding: 5px 0px;
+  overflow: hidden;
+  /* background-color:  rgba(255, 255, 255, 0.9); */
+}
+
+.topnav a {
+  float: left;
+  /* display: flexbox; */
+  color: #f6f6f6;
+  text-align: center;
+  margin-left: 10px;
+  padding: 24px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.topnav a:hover {
+  background: #5f671e;
+  color: #f6f6f6;
+  border-radius: 5px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/wellpaper1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+.menu-utama {
+  padding: 0 150px;
+  padding-top: 150px;
+}
+.menu-utama h1 {
+  font-size: 100px;
+  color: #f6f6f6;
+  text-shadow: 9px 6px 3px #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-utama p{
+  font-size: 20px;
+  color: #f6f6ff;
+}
+/*edu*/
+.edu {
+  height: 100ph;
+
+  padding: 100px 50px;
+  text-align: center;
+}
+.edu h1 {
+  font-size: 70px;
+  padding-bottom: 30px;
+  color: #97a432;
+  text-shadow: 6px 3px 1px #5f671e;
+  
+}
+.edu-bawah {
+  padding-left: 200px;
+
+}
+.box {
+  background-color: #97a432;
+  margin-top: 30px;
+  width: 75%;
+  padding: 30px;
+  
+}
+.box h2 {
+  color: #f6f6f6;
+  font-size: 30px;
+  text-align: left;
+}
+.box p {
+  color: #f6f6f6;
+  font-size: 20px;
+  text-align: left;
+}
+/*Galery*/
+.galery {
+  height: auto;
+  padding: 100px 50px;
+  text-align: center;
+}
+.galery h1{
+  font-size: 70px;
+  padding-bottom: 30px;
+  color: #97a432;
+}
+.galery span {
+  color: #5f671e;
+}
+.galery p {
+  color: #97a432;
+}
+.isi-box-poto img {
+  width: 250px;
+  height: 200px;
+}
+.myteam {
+  width: 100%;
+  height: 100vh;
+}
+.myteam h3 {
+  padding-top: 70px;
+  text-align: center;
+  color: #97a432;
+  font-size: 50px;
+}
+.container-box {
+  display: flex;
+  padding: 40px;
+}
+.box-kontak {
+  width: 30%;
+  height: 50vh;
+  background: #00000080;
+  padding: 20px;
+  margin-right: 15px;
+}
+.box-kontak img {
+  margin-left: 60px;
+  width: 50%;
+  height: 25vh;
+  margin-top: 30px;
+}
+.box-kontak h2 {
+  color: #f6f6f6;
+  text-align: center;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  height: 10vh;
+}
+footer p {
+  text-align: center;
+  color: #f6f6f6;
+  padding-top: 20px;
+}
